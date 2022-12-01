@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import PropsDisplayer from './components/PropsDisplayer';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           Learn React
         </a>
       </header>
+      <PropsDisplayer test={"hello"}/>
     </div>
   );
 }
